@@ -1,7 +1,7 @@
 import "./Boxes.css";
 
 const FizzBuzzBox = () => {
-  return <div className="box FizzBuzz">FizzBuzz</div>;
+  return <li className="box FizzBuzz">FizzBuzz</li>;
 };
 
 export default FizzBuzzBox;
