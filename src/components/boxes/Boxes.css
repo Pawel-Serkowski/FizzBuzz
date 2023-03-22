@@ -1,0 +1,28 @@
+.box {
+  min-width: 75px;
+  height: 75px;
+  border: 3px solid #000;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.box.Buzz {
+  border-color: rgb(124, 10, 10);
+  color: rgb(124, 10, 10);
+}
+.box.Fizz {
+  border-color: green;
+  color: green;
+}
+.box.FizzBuzz {
+  border-color: blue;
+  color: blue;
+}
