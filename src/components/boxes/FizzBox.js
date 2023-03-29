@@ -1,6 +1,6 @@
 import "./Boxes.css";
 
-const FizzBox = (props) => {
+const FizzBox = () => {
   return <li className="box Fizz">Fizz</li>;
 };
 
